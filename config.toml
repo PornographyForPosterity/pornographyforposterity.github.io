@@ -9,6 +9,7 @@ preserveTaxonomyNames = true
     mainpagesubtitle = "Ensuring Anthropological Preservation of Pornographic Media"
     mainpagedesc = "TBD"
     copyrightname = "PornographyForPosterity.com"
+    loadfastload = false
 
 [taxonomies]
 studio = "studio"
