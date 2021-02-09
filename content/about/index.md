@@ -5,7 +5,6 @@ draft: false
 categories:
   - Site Info
 ---
-## About the Pornography for Posterity Project
 
 ----
 
@@ -15,6 +14,6 @@ Lorem ipsum dolor sit amet.
 
 ### FAQ
  
-#### # One FAQ Question
-#### # Two FAQ Question
+#### * One FAQ Question
+#### * Two FAQ Question
 
