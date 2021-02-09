@@ -9,7 +9,7 @@ preserveTaxonomyNames = true
     mainpagesubtitle = "Ensuring Anthropological Preservation of Pornographic Media"
     mainpagedesc = "Click on the links above for more information, or to the right to jump to specific pages."
     copyrightname = "PornographyForPosterity.com"
-    loadfastload = false
+    loadfastload = true
 
 [taxonomies]
 studio = "studio"
