@@ -15,6 +15,7 @@ preserveTaxonomyNames = true
 studio = "studio"
 performer = "performers"
 tags = "tags"
+categories = "categories"
 
 [menu]
   # This displays buttons in the navbar to access your contents
