@@ -14,3 +14,11 @@ preserveTaxonomyNames = true
 studio = "studio"
 performer = "performers"
 tags = "tags"
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About PFP" # A display name for the button
+    url = "/about/" # The path to the content. It can lead to a single page (like here)
+    weight = 10 # A number to order the buttons in the navbar
