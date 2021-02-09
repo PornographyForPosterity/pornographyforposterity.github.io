@@ -10,3 +10,7 @@ preserveTaxonomyNames = true
     mainpagedesc = "TBD"
     copyrightname = "PornographyForPosterity.com"
 
+[taxonomies]
+studio = "studio"
+performer = "performers"
+tags = "tags"
