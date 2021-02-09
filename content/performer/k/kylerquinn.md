@@ -1,5 +1,5 @@
 {
 	"name": "Kyler Quinn",
-	"iafd-perfid": "kylerquinn",
-	"iafd-gender": "f"
+	"iafd_perfid": "kylerquinn",
+	"iafd_gender": "f"
 }
