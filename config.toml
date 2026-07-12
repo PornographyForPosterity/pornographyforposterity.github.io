@@ -1,4 +1,4 @@
-baseURL = "https://pornographyforposterity.com/"
+baseURL = "https://pornographyforposterity.github.io/"
 languageCode = "en-us"
 title = "Pornography for Posterity"
 theme = "hugo.386"
@@ -8,7 +8,7 @@ preserveTaxonomyNames = true
     mainpagetitle = "PFP"
     mainpagesubtitle = "Ensuring Anthropological Preservation of Pornographic Media"
     mainpagedesc = "Click on the links above for more information, or to the right to jump to specific pages."
-    copyrightname = "PornographyForPosterity.com"
+    copyrightname = "Pornography for Posterity"
     loadfastload = true
 
 [taxonomies]
