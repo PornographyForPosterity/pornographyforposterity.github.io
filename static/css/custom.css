@@ -1,0 +1,52 @@
+/* Accessibility fixes layered on top of the hugo.386 theme's stock CSS. */
+
+/* The theme distinguishes links from body text by color alone (#fefe54 on
+   #000084), which fails WCAG 1.4.1 (Use of Color). Underlining restores a
+   non-color cue without changing the retro palette. */
+a {
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+/* Skip-to-content link: visually hidden until focused, so keyboard users
+   can bypass the navbar instead of tabbing through it on every page. */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 2000;
+    padding: 0.5em 1em;
+    background: #fefe54;
+    color: #000084;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+/* The theme's navbar-toggle button ships with no visible icon in this
+   port; draw the standard three-bar hamburger so the control isn't blank. */
+.btn-navbar .icon-bar {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: #bbbbbb;
+    border-radius: 1px;
+}
+
+.btn-navbar .icon-bar + .icon-bar {
+    margin-top: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}

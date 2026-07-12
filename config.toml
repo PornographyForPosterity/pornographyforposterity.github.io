@@ -10,6 +10,7 @@ preserveTaxonomyNames = true
     mainpagedesc = "PFP catalogs the performers, studios, and releases of commercial pornography — starting with the pre-digital era, whose record is disappearing fastest. It hosts no films or images, only the historical metadata: names, credits, dates, and sources. See [About](/about/) for the full mission, [Methodology](/methodology/) for how entries are built, or browse performers, studios, and tags to the right."
     copyrightname = "Pornography for Posterity"
     loadfastload = true
+    customCSS = ["/css/custom.css"]
 
 [taxonomies]
 studio = "studio"
@@ -22,25 +23,25 @@ categories = "categories"
   [[menu.main]]
     identifier = "about"
     name = "About PFP"
-    url = "/about/"
+    pageRef = "/about/"
     weight = 10
   [[menu.main]]
     identifier = "methodology"
     name = "Methodology"
-    url = "/methodology/"
+    pageRef = "/methodology/"
     weight = 20
   [[menu.main]]
     identifier = "history"
     name = "History & Scope"
-    url = "/history/"
+    pageRef = "/history/"
     weight = 30
   [[menu.main]]
     identifier = "faq"
     name = "FAQ"
-    url = "/faq/"
+    pageRef = "/faq/"
     weight = 40
   [[menu.main]]
     identifier = "contribute"
     name = "Contribute"
-    url = "/contribute/"
+    pageRef = "/contribute/"
     weight = 50

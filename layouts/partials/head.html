@@ -7,6 +7,9 @@
     <meta name="theme-color" content="#000084" />
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.mainpagesubtitle }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
-    {{/* Don't ask why it's like this. This original theme is a mess... */}}
-    <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
+    {{/* The theme's boot-animation JS is responsible for un-hiding
+         body { visibility: hidden } from style.css. Without this fallback,
+         anyone without JS (or whose JS errors before that point) sees a
+         permanently blank page. */}}
+    <noscript><style>body { visibility: visible; }</style></noscript>
 </head>
