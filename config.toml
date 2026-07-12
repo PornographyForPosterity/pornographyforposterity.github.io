@@ -1,4 +1,4 @@
-baseURL = "https://pornographyforposterity.com/"
+baseURL = "https://pornographyforposterity.github.io/"
 languageCode = "en-us"
 title = "Pornography for Posterity"
 theme = "hugo.386"
@@ -7,8 +7,8 @@ preserveTaxonomyNames = true
 [params]
     mainpagetitle = "PFP"
     mainpagesubtitle = "Ensuring Anthropological Preservation of Pornographic Media"
-    mainpagedesc = "Click on the links above for more information, or to the right to jump to specific pages."
-    copyrightname = "PornographyForPosterity.com"
+    mainpagedesc = "PFP catalogs the performers, studios, and releases of commercial pornography — starting with the pre-digital era, whose record is disappearing fastest. It hosts no films or images, only the historical metadata: names, credits, dates, and sources. See [About](/about/) for the full mission, [Methodology](/methodology/) for how entries are built, or browse performers, studios, and tags to the right."
+    copyrightname = "Pornography for Posterity"
     loadfastload = true
 
 [taxonomies]
@@ -20,7 +20,27 @@ categories = "categories"
 [menu]
   # This displays buttons in the navbar to access your contents
   [[menu.main]]
-    identifier = "about" # An unique identifier for the button
-    name = "About PFP" # A display name for the button
-    url = "/about/" # The path to the content. It can lead to a single page (like here)
-    weight = 10 # A number to order the buttons in the navbar
+    identifier = "about"
+    name = "About PFP"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "methodology"
+    name = "Methodology"
+    url = "/methodology/"
+    weight = 20
+  [[menu.main]]
+    identifier = "history"
+    name = "History & Scope"
+    url = "/history/"
+    weight = 30
+  [[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/faq/"
+    weight = 40
+  [[menu.main]]
+    identifier = "contribute"
+    name = "Contribute"
+    url = "/contribute/"
+    weight = 50

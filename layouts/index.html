@@ -10,7 +10,15 @@
     <div class="span9 bs-docs-sidebar">
         <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
         <p></p>
-        <p>{{ .Site.Params.mainpagedesc }}</p>
+        <p>{{ .Site.Params.mainpagedesc | markdownify }}</p>
+        <p></p>
+        <ul class="nav nav-list">
+            <li><a href="/about/">About the project</a></li>
+            <li><a href="/methodology/">Methodology</a></li>
+            <li><a href="/history/">History &amp; scope notes</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/contribute/">Contribute</a></li>
+        </ul>
         <p></p>
         <hr class="soften">
         <p></p>
