@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    {{- partial "head.html" . -}}
+    <body>
+        <a class="skip-link" href="#content">Skip to content</a>
+        {{- partial "header.html" . -}}
+        <div id="content" class="container" tabindex="-1">
+            <div class="row-fluid navmargin">
+                <div class="page-header">
+                    <h1>Page not found</h1>
+                </div>
+                <p class="lead">There's nothing archived at this address.</p>
+                <p>The page may have moved, or the link may be out of date. Try the <a href="{{ .Site.BaseURL }}">homepage</a>, or browse performers, studios, and tags from there.</p>
+            </div>
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+    {{- partial "scripts.html" . -}}
+</html>
